@@ -1,2 +1,2 @@
 # react_masterclass
-React Challenge
+React JS Master Class Challenge
