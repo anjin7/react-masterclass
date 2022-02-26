@@ -1,2 +1,4 @@
-demo/** linguist-documentation=false
-demo/** linguist-vendored=false
+* linguist-documentation=false
+* linguist-vendored=false
+.js linguist-detectable=true
+.css linguist-detectable=true
