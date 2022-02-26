@@ -1,4 +1,4 @@
-* linguist-vendored=false
-* .html linguist-detectable=true
-* .js linguist-detectable=true
-* .css linguist-detectable=true
+
+react-masterclass/** .html linguist-detectable=true
+react-masterclass/** .js linguist-detectable=true
+react-masterclass/** .css linguist-detectable=true
