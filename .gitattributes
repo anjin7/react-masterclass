@@ -1,4 +1,5 @@
-
+*.json linguist-detectable=false
+*.txt linguist-detectable=false
 react-masterclass/** .html linguist-detectable=true
 react-masterclass/** .js linguist-detectable=true
 react-masterclass/** .css linguist-detectable=true
