@@ -1,8 +1,19 @@
 import styled, { keyframes } from 'styled-components';
 
 const Wrapper = styled.div`
+  font-family: 'Times New Roman', Times, serif;
   display: flex;
-  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: ${props => props.theme.backgroundColor};
+`;
+
+const Title = styled.h1`
+  color: ${props => props.theme.textColor};
+  font-weight: 700;
+  font-size: 48px;
 `;
 
 const rotateAnimation = keyframes`
@@ -22,12 +33,12 @@ const rotateAnimation = keyframes`
 
 const Emoji = styled.span`
   font-size: 24px;
-`
-
+`;
 const Box = styled.div`
   height: 200px;
   width: 200px;
   background-color: skyblue;
+  margin: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,10 +56,11 @@ const Box = styled.div`
 function App() {
   return (
     <Wrapper>
+      <Title>Hello</Title>
+
       <Box>
         <Emoji as="p" >😀</Emoji>
       </Box>
-      <Emoji>😆</Emoji>
     </Wrapper>
   );
 }
