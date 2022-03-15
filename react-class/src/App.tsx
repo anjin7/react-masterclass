@@ -67,9 +67,8 @@ function App() {
   
   return (
     <>
-      <GlobalStyle>
-        <Router />
-      </GlobalStyle>
+      <GlobalStyle />
+      <Router />
     </>
   );
 }
