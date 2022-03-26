@@ -1,4 +1,4 @@
-# react_masterclass
+# React Master Class
 
 React JS Master Class
 
